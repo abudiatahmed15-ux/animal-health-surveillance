@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VetNexa — Report Sick Animal</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="padding:24px;background:var(--bg)">
+  <div style="max-width:980px;margin:0 auto">
+    <h2>Report Sick Animal</h2>
+    <div class="card" style="margin-top:12px">
+      <div style="display:flex;justify-content:space-between;align-items:center"><div>Step 1 of 4 — Animal</div><div style="color:var(--muted)">Animal • Symptoms • Details • Review</div></div>
+      <form id="reportForm" class="form-step" style="margin-top:12px" enctype="multipart/form-data">
+        <div>
+          <h4>Tell us about the animal</h4>
+          <div style="margin-top:8px">
+            <label for="animalType">Animal type</label>
+            <select id="animalType" name="animalType" style="width:100%;padding:10px;border-radius:8px;border:1px solid #E8EEF1;margin-top:6px">
+              <option value="cow">Cow</option>
+              <option value="buffalo">Buffalo</option>
+              <option value="goat">Goat</option>
+              <option value="sheep">Sheep</option>
+              <option value="pig">Pig</option>
+              <option value="chicken">Chicken (Poultry)</option>
+              <option value="duck">Duck</option>
+              <option value="turkey">Turkey</option>
+              <option value="camel">Camel</option>
+              <option value="horse">Horse</option>
+              <option value="donkey">Donkey</option>
+              <option value="mule">Mule</option>
+              <option value="llama">Llama</option>
+              <option value="alpaca">Alpaca</option>
+              <option value="rabbit">Rabbit</option>
+              <option value="bees">Bees</option>
+              <option value="fish">Fish / Aquaculture</option>
+              <option value="dog">Dog</option>
+              <option value="cat">Cat</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div style="margin-top:12px">
+            <label>Animal  Symptoms </label>
+            <input style="width:100%;padding:10px;border-radius:8px;border:1px solid #E8EEF1;margin-top:6px" />
+          </div>
+        </div>
+        <div>
+          <h4>Quick details</h4>
+          <label>Age</label>
+          <input style="width:100%;padding:10px;border-radius:8px;border:1px solid #E8EEF1;margin-top:6px" />
+          <label style="margin-top:8px;display:block">Gender</label>
+          <select style="width:100%;padding:10px;border-radius:8px;border:1px solid #E8EEF1;margin-top:6px"><option>Male</option><option>Female</option></select>
+        </div>
+        </div>
+
+        <div style="margin-top:12px">
+          <h4>Upload photo</h4>
+          <label style="display:block">Photo (helpful for diagnosis)</label>
+          <input id="photoInput" type="file" accept="image/*" style="margin-top:6px" />
+          <div id="photoPreviewContainer" style="margin-top:8px;display:none">
+            <img id="photoPreview" src="" alt="preview" style="max-width:220px;border-radius:8px;box-shadow:var(--shadow);" />
+          </div>
+        </div>
+
+      </form>
+
+      <div style="margin-top:14px;display:flex;justify-content:flex-end;gap:12px">
+        <button class="btn btn-ghost" id="saveContinue">Save & Continue</button>
+        <button class="btn btn-primary" id="nextBtn" type="button">Next</button>
+      </div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const photoInput = document.getElementById('photoInput');
+    const preview = document.getElementById('photoPreview');
+    const previewContainer = document.getElementById('photoPreviewContainer');
+    let currentDataUrl = null;
+
+    if(photoInput){
+      photoInput.addEventListener('change', ()=>{
+        const f = photoInput.files && photoInput.files[0];
+        if(!f){ previewContainer.style.display = 'none'; currentDataUrl = null; return; }
+        const reader = new FileReader();
+        reader.onload = ()=>{ currentDataUrl = reader.result; preview.src = currentDataUrl; previewContainer.style.display = 'block'; };
+        reader.readAsDataURL(f);
+      });
+    }
+
+    const nextBtn = document.getElementById('nextBtn');
+    const saveBtn = document.getElementById('saveContinue');
+
+    function submitAndRedirect(){
+      if(currentDataUrl) localStorage.setItem('reportImage', currentDataUrl); else localStorage.removeItem('reportImage');
+      window.location.href = 'report-submitted.html';
+    }
+
+    if(nextBtn) nextBtn.addEventListener('click', (e)=>{ submitAndRedirect(); });
+    if(saveBtn) saveBtn.addEventListener('click', ()=>{ if(currentDataUrl) localStorage.setItem('reportImage', currentDataUrl); else localStorage.removeItem('reportImage'); alert('Saved locally (demo).'); });
+  });
+  </script>
+</body>
+</html>

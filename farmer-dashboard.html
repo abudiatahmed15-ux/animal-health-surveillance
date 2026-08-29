@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VetNexa — Farmer Dashboard</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="vn-navbar"><div class="left"><img src="../design/logo.svg" height="36"></div><div><a class="btn btn-ghost">Notifications</a><a class="btn">Profile</a></div></header>
+  <main style="padding:24px">
+    <div class="dashboard-header">
+      <div>
+        <h2>Good morning 👋</h2>
+        <div style="color:var(--muted)">Here's today's livestock health overview.</div>
+      </div>
+      <div><a class="primary-action" href="report-form.html">+ Report Sick Animal</a></div>
+    </div>
+
+    <div class="grid-4 fade-in">
+      <div class="card"><strong>Total Animals</strong><div style="font-size:28px;margin-top:8px">1,254</div></div>
+      <div class="card"><strong>Healthy</strong><div style="font-size:28px;margin-top:8px;color:var(--success)">1,020</div></div>
+      <div class="card"><strong>Attention Needed</strong><div style="font-size:28px;margin-top:8px;color:var(--warning)">180</div></div>
+      <div class="card"><strong>High Risk</strong><div style="font-size:28px;margin-top:8px;color:var(--danger)">54</div></div>
+    </div>
+
+    <section style="margin-top:18px">
+      <h3>Recent Reports</h3>
+      <div class="card" style="margin-top:12px">
+        <table style="width:100%;border-collapse:collapse"><thead style="color:var(--muted);text-align:left"><tr><th>Animal</th><th>Symptoms</th><th>Risk</th><th>Date</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>Cow - A123</td><td>Fever, Cough</td><td style="color:var(--danger)">HIGH</td><td>2026-08-28</td><td>Open</td></tr>
+          <tr><td>Goat - G45</td><td>Diarrhea</td><td style="color:var(--warning)">MED</td><td>2026-08-27</td><td>Investigating</td></tr>
+        </tbody></table>
+      </div>
+    </section>
+
+  </main>
+  <script src="scripts.js"></script>
+</body>
+</html>
