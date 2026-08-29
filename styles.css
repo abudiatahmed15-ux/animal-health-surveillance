@@ -1,0 +1,105 @@
+:root{
+  --bg: #F6FBFB;
+  --surface: #FFFFFF;
+  --primary: #66CDAA;
+  --primary-2: #4FC799;
+  --secondary: #70CFF2;
+  --text: #0F2130;
+  --muted: #8B97A6;
+  --success: #27AE60;
+  --warning: #F29E4C;
+  --danger: #E85D5D;
+  --radius: 10px;
+  --shadow: 0 8px 24px rgba(12,20,30,0.06);
+  --ease: cubic-bezier(.2,.9,.2,1);
+}
+*{box-sizing:border-box}
+html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;color:var(--text);background:var(--bg)}
+a{color:inherit;text-decoration:none}
+
+/* Navbar */
+.vn-navbar{display:flex;align-items:center;justify-content:space-between;padding:18px 36px;background:linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.55));backdrop-filter: blur(6px);position:sticky;top:0;z-index:20}
+.vn-navbar .left{display:flex;align-items:center;gap:16px}
+.vn-nav-links{display:flex;gap:18px;align-items:center}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:10px 14px;border-radius:8px;border:none;cursor:pointer;font-weight:600}
+.btn-primary{background:linear-gradient(90deg,var(--primary),var(--secondary));color:white;box-shadow:var(--shadow);transition:transform 220ms var(--ease), box-shadow 220ms var(--ease)}
+.btn-primary:hover{transform:translateY(-4px)}
+.btn-ghost{background:transparent;border:1px solid rgba(15,33,48,0.06);color:var(--text)}
+
+/* Hero */
+.hero{display:flex;gap:48px;align-items:center;padding:72px 36px}
+.hero-left{max-width:680px}
+.h-title{font-size:40px;line-height:1.1;margin:0 0 12px;font-weight:700}
+.h-sub{color:var(--muted);margin:0 0 20px}
+.hero-cta{display:flex;gap:12px}
+
+.preview{flex:1;background:var(--surface);border-radius:14px;padding:18px;box-shadow:var(--shadow);position:relative;overflow:hidden;min-height:360px}
+.preview .mini-stats{display:flex;gap:12px}
+.stat{background:linear-gradient(180deg, rgba(255,255,255,0.9), #fff);padding:10px;border-radius:8px;min-width:110px}
+
+/* Feature cards */
+.features{display:flex;gap:16px;padding:36px}
+.feature-card{background:var(--surface);border-radius:12px;padding:20px;flex:1;box-shadow:0 6px 18px rgba(12,20,30,0.04);transition:transform 260ms var(--ease)}
+.feature-card:hover{transform:translateY(-6px)}
+
+/* Stats strip */
+.stats-strip{display:flex;gap:24px;padding:18px 36px;justify-content:center}
+.stat-number{font-size:20px;font-weight:700}
+
+/* Cards and tables */
+.card{background:var(--surface);border-radius:12px;padding:16px;box-shadow:0 6px 20px rgba(12,20,30,0.04)}
+.grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+
+/* Dashboard */
+.dashboard-header{display:flex;justify-content:space-between;align-items:center;padding:24px}
+.primary-action{background:linear-gradient(90deg,var(--primary),var(--secondary));color:white;padding:18px;border-radius:12px;font-weight:700;display:inline-flex;align-items:center;gap:10px}
+
+/* Report form */
+.form-step{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.chip{display:inline-flex;align-items:center;padding:8px 12px;border-radius:999px;background:#F3F8F7;border:1px solid rgba(15,33,48,0.02);cursor:pointer}
+.chip.selected{background:linear-gradient(90deg,var(--primary),var(--secondary));color:white;transform:translateY(-4px)}
+
+/* Map */
+.map-screen{height:calc(100vh - 80px);background:linear-gradient(180deg,#F9FFFF,#F6FBFB)}
+
+/* Chatbot */
+.chatbot-btn{position:fixed;right:20px;bottom:20px;width:56px;height:56px;border-radius:50%;background:var(--primary);display:flex;align-items:center;justify-content:center;color:white;box-shadow:0 12px 30px rgba(16,24,40,0.12);cursor:pointer}
+.chat-panel{position:fixed;right:20px;bottom:90px;width:340px;background:var(--surface);border-radius:12px;box-shadow:var(--shadow);overflow:hidden;display:none}
+.chat-panel.open{display:block}
+
+/* Responsive */
+@media(max-width:900px){
+  .hero{flex-direction:column;padding:36px}
+  .grid-4{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:520px){
+  .grid-4{grid-template-columns:1fr}
+  .hero-left{width:100%}
+}
+
+/* Utilities */
+.fade-in{opacity:0;transform:translateY(10px);transition:opacity 360ms var(--ease), transform 360ms var(--ease)}
+.in-view{opacity:1;transform:none}
+
+/* Dark theme variables (applies when document has `data-theme="dark"`) */
+[data-theme="dark"]{
+  --bg: #07111a;
+  --surface: #0e1620;
+  --primary: #2fb38a;
+  --primary-2: #26a07a;
+  --secondary: #2fa8d9;
+  --text: #e6f0f4;
+  --muted: #9fb0bd;
+  --success: #2fb871;
+  --warning: #e6a55a;
+  --danger: #ff7b7b;
+  --shadow: 0 10px 30px rgba(0,0,0,0.6);
+}
+
+/* Theme toggle floating button */
+.theme-toggle{position:fixed;right:18px;bottom:18px;width:48px;height:48px;border-radius:999px;background:var(--surface);display:flex;align-items:center;justify-content:center;box-shadow:var(--shadow);cursor:pointer;border:1px solid rgba(255,255,255,0.04);z-index:60}
+.theme-toggle svg{width:20px;height:20px;fill:currentColor;color:var(--text)}
+
+/* Adjustments for dark navbar backdrop */
+.vn-navbar{background: linear-gradient(180deg, rgba(255,255,255,0.6), rgba(255,255,255,0.55));}
+[data-theme="dark"] .vn-navbar{background: linear-gradient(180deg, rgba(8,12,18,0.6), rgba(8,12,18,0.55));}
