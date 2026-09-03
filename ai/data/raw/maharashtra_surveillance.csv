@@ -1,0 +1,49 @@
+Year,Period,State,District,Disease,Animal_Type,Metric,Value,Unit,Source,Notes
+2015,2015-16,Maharashtra,,FMD,Cattle/Buffalo/Sheep/Goat/Pig,Outbreaks,0.0,outbreaks,Maharashtra disease-outbreak table,Explicitly reported as zero
+2016,2016,Maharashtra,,FMD,,Outbreaks,0.0,outbreaks,Government of India / PIB,State-wise FMD incidence table
+2016,2016,Maharashtra,,FMD,,Cases,0.0,attacks,Government of India / PIB,State-wise FMD incidence table
+2016,2016,Maharashtra,,FMD,,Deaths,0.0,deaths,Government of India / PIB,State-wise FMD incidence table
+2017,2017,Maharashtra,,FMD,,Outbreaks,0.0,outbreaks,Government of India / PIB,State-wise FMD incidence table
+2017,2017,Maharashtra,,FMD,,Cases,0.0,attacks,Government of India / PIB,State-wise FMD incidence table
+2017,2017,Maharashtra,,FMD,,Deaths,0.0,deaths,Government of India / PIB,State-wise FMD incidence table
+2018,2018,Maharashtra,,FMD,,Outbreaks,0.0,outbreaks,Government of India / PIB,State-wise FMD incidence table
+2018,2018,Maharashtra,,FMD,,Cases,0.0,attacks,Government of India / PIB,State-wise FMD incidence table
+2018,2018,Maharashtra,,FMD,,Deaths,0.0,deaths,Government of India / PIB,State-wise FMD incidence table
+2019,2019,Maharashtra,,FMD,,Deaths,22.0,deaths,Government of India,State-wise FMD deaths 2017-2021
+2020,2020,Maharashtra,,FMD,,Deaths,0.0,deaths,Government of India,State-wise FMD deaths 2017-2021
+2021,2021,Maharashtra,,FMD,,Deaths,0.0,deaths,Government of India,State-wise FMD deaths 2017-2021
+2022,2022,Maharashtra,,FMD,,Outbreaks,4.0,outbreaks,Government of India,State-reported FMD outbreaks in Maharashtra
+2023,2023,Maharashtra,,FMD,,Outbreaks,4.0,outbreaks,Government of India,State-reported FMD outbreaks in Maharashtra
+2024,2024,Maharashtra,,FMD,,Outbreaks,7.0,outbreaks,Government of India,State-reported FMD outbreaks in Maharashtra
+2022,2022,Maharashtra,,FMD,Bovine,Deaths,21.0,deaths,Government of India,Bovine FMD deaths
+2023,2023,Maharashtra,,FMD,Bovine,Deaths,9.0,deaths,Government of India,Bovine FMD deaths
+2020,2020-21,Maharashtra,,FMD,,Vaccination,14700000.0,animals vaccinated,Maharashtra Economic Survey,First FMD vaccination round
+2021,2021-22,Maharashtra,,FMD,,Vaccination,16900000.0,animals vaccinated,Maharashtra Economic Survey,Second FMD vaccination round
+2022,2022-23,Maharashtra,,FMD,,Vaccination,1922000.0,animals vaccinated,Maharashtra Economic Survey,Up to end of December 2022
+2015,2015-16,Maharashtra,,PPR,Sheep/Goat,Outbreaks,21.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Part of Maharashtra 2015-16 to 2020-21 series
+2016,2016-17,Maharashtra,,PPR,Sheep/Goat,Outbreaks,8.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Annual outbreak count
+2017,2017-18,Maharashtra,,PPR,Sheep/Goat,Outbreaks,5.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Annual outbreak count
+2018,2018-19,Maharashtra,,PPR,Sheep/Goat,Outbreaks,25.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Annual outbreak count
+2019,2019-20,Maharashtra,,PPR,Sheep/Goat,Outbreaks,27.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Annual outbreak count
+2020,2020-21,Maharashtra,,PPR,Sheep/Goat,Outbreaks,33.0,outbreaks,ICAR-NIVEDI/PPR epidemiology study,Annual outbreak count; 33 outbreaks from 9 districts in 2020
+2016,2016-17,Maharashtra,,PPR,Sheep/Goat,Vaccination coverage,14.5,percent,ICAR-NIVEDI/PPR epidemiology study,
+2017,2017-18,Maharashtra,,PPR,Sheep/Goat,Vaccination coverage,51.1,percent,ICAR-NIVEDI/PPR epidemiology study,
+2018,2018-19,Maharashtra,,PPR,Sheep/Goat,Vaccination coverage,73.7,percent,ICAR-NIVEDI/PPR epidemiology study,
+2019,2019-20,Maharashtra,,PPR,Sheep/Goat,Vaccination coverage,26.3,percent,ICAR-NIVEDI/PPR epidemiology study,
+2020,2020-21,Maharashtra,,PPR,Sheep/Goat,Vaccination coverage,3.5,percent,ICAR-NIVEDI/PPR epidemiology study,
+2019,2019,Maharashtra,,PPR,Sheep/Goat,High-risk districts,1.0,districts,NADRES March 2019 bulletin,Forecasted high/very-high risk districts
+2024,2024,Maharashtra,,PPR,Sheep/Goat,High-risk districts,4.0,districts,NADRES November 2024 bulletin,"Ahmednagar, Gadchiroli, Nashik and Pune"
+2017,2017,Maharashtra,,HS,Livestock,Deaths,0.0,deaths,Government of India,State-wise HS deaths
+2018,2018,Maharashtra,,HS,Livestock,Deaths,57.0,deaths,Government of India,State-wise HS deaths
+2019,2019,Maharashtra,,HS,Livestock,Deaths,31.0,deaths,Government of India,State-wise HS deaths
+2020,2020,Maharashtra,,HS,Livestock,Deaths,22.0,deaths,Government of India,State-wise HS deaths
+2021,2021,Maharashtra,,HS,Livestock,Deaths,71.0,deaths,Government of India,State-wise HS deaths
+2015,2015-16,Maharashtra,,BQ,Cattle,Outbreaks,2.0,outbreaks,Maharashtra disease-outbreak table,Historical outbreak evidence
+2018,2018,Maharashtra,,BQ,,High-risk districts,2.0,districts,NADRES May 2018 bulletin,Prone-district forecast
+2019,2019,Maharashtra,,BQ,,High-risk districts,1.0,district,NADRES August 2019 bulletin,Prone/affected district evidence
+2020,2020,Maharashtra,,BQ,,High-risk districts,1.0,district,NADRES September 2020 bulletin,Prone-district forecast
+2021,2021,Maharashtra,,BQ,,High-risk districts,3.0,districts,NADRES February 2021 bulletin,Prone-district forecast
+2024,2024,Maharashtra,,BQ,,High-risk districts,1.0,district,NADRES November 2024 bulletin,Osmanabad
+2024,November 2024,Maharashtra,Ahmadnagar,FMD,,High-risk forecast,1.0,district,NADRES November 2024 bulletin,
+2024,November 2024,Maharashtra,Ahmadnagar,HS,,High-risk forecast,3.0,districts,NADRES November 2024 bulletin,"Ahmadnagar, Nashik, Pune"
+2024,November 2024,Maharashtra,Sindhudurg,LSD,Bovine,High-risk forecast,1.0,district,NADRES November 2024 bulletin,

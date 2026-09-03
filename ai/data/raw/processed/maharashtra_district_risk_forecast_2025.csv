@@ -1,0 +1,11 @@
+State,District,Disease,Forecast_Month,Forecast_Risk_Flag,Forecast_Risk_Level,Forecast_Source,Source_URL
+Maharashtra,Satara,BQ,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Ahmadnagar,FMD,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Dhule,FMD,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Pune,FMD,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Ahmadnagar,HS,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Kolhapur,HS,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Buldana,LSD,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Ahmadnagar,PPR,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Kolhapur,PPR,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
+Maharashtra,Nashik,PPR,September 2025,1,HIGH_OR_VERY_HIGH,July 2025 bulletin,ICAR-NIVEDI NADRES v2 Maharashtra September 2025 risk bulletin
