@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="40" viewBox="0 0 160 40" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1">
+      <stop offset="0" stop-color="#66CDAA"/>
+      <stop offset="1" stop-color="#70CFF2"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="160" height="40" rx="8" fill="transparent" />
+  <g transform="translate(4,4)">
+    <rect x="0" y="0" width="32" height="32" rx="6" fill="url(#g)" />
+    <path d="M10 8c0-1.5 1.2-3 3-3s3 1.5 3 3c0 1.2-.6 2.2-1.5 2.7V14" stroke="#fff" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M6 12h20" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
+    <g transform="translate(44,6)">
+      <text x="0" y="14" fill="#0F2130" font-family="Inter, sans-serif" font-weight="700" font-size="16">VetNexa</text>
+      <text x="0" y="30" fill="#8B97A6" font-family="Inter, sans-serif" font-weight="500" font-size="10">Detect Early. Act Faster. Protect Livestock.</text>
+    </g>
+  </g>
+</svg>

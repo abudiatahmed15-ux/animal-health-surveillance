@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VetNexa Health Surveillance Map</title>
+  <meta name="description" content="Monitor livestock health reports and identify potential health hotspots." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="vn-navbar map-navbar">
+    <div class="left">
+      <a href="../index.html" class="brand" aria-label="VetNexa home"><img src="../design/logo.svg" alt="VetNexa logo" height="36"></a>
+      <nav class="vn-nav-links" aria-label="Main navigation">
+        <a href="../index.html" class="nav-link">Home</a>
+        <a href="../index.html#how-it-works" class="nav-link">How It Works</a>
+        <a href="../index.html#features" class="nav-link">Features</a>
+        <a href="../index.html#for-farmers" class="nav-link">For Farmers</a>
+        <a href="../index.html#for-veterinarians" class="nav-link">For Veterinarians</a>
+        <a href="map.html" class="nav-link active">Map</a>
+        <a href="../index.html#about" class="nav-link">About</a>
+      </nav>
+    </div>
+    <div class="right map-nav-actions">
+      <a class="btn btn-ghost" href="../index.html">Back to Home</a>
+      <button class="profile-button" aria-label="User profile">VN</button>
+    </div>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main class="map-screen dashboard-screen">
+    <div class="map-page-heading"><div><span class="eyebrow mini">Live livestock intelligence</span><h1>VetNexa Health Surveillance Map</h1><p>Monitor livestock health reports and identify potential health hotspots.</p></div><div class="map-status"><span class="status-dot"></span> Monitoring active</div></div>
+    <section class="map-stat-grid" aria-label="Surveillance statistics"><div class="map-stat"><strong data-map-count="2543">2,543</strong><span>Total Reports</span></div><div class="map-stat"><strong data-map-count="124">124</strong><span>High Risk Cases</span></div><div class="map-stat"><strong data-map-count="18">18</strong><span>Potential Hotspots</span></div><div class="map-stat"><strong data-map-count="4892">4,892</strong><span>Animals Affected</span></div></section>
+    <div class="map-dashboard">
+      <aside class="map-sidebar card" id="map-filters"><div class="sidebar-heading"><div><span class="eyebrow mini">Filters</span><h2>Health Surveillance</h2></div><button class="drawer-close" aria-label="Close filters">×</button></div><label>Risk Level</label><select id="risk-filter"><option value="All">All</option><option value="Low">Low Risk</option><option value="Medium">Medium Risk</option><option value="High">High Risk</option></select><label>Animal Type</label><select id="animal-filter"><option>All Animals</option><option>Cow</option><option>Horse</option><option>Sheep</option><option>Goat</option><option>Pig</option><option>Rabbit</option></select><label>Date Range</label><select id="date-filter"><option>Today</option><option>Last 7 Days</option><option>Last 30 Days</option><option>Last 3 Months</option></select><button class="btn btn-primary apply-filter" id="apply-filters">Apply Filters</button><div class="map-legend"><strong>Map Legend</strong><span><i class="legend-dot low"></i> Low Risk</span><span><i class="legend-dot medium"></i> Medium Risk</span><span><i class="legend-dot high"></i> High Risk</span></div></aside>
+      <section class="map-main card"><div class="map-toolbar"><div class="map-mode-toggle" role="group" aria-label="Map mode"><button class="mode-button active" data-mode="markers">Markers</button><button class="mode-button" data-mode="clusters">Clusters</button><button class="mode-button" data-mode="heatmap">Heatmap</button></div><button class="filter-open" aria-controls="map-filters">Filters</button></div><div class="map-canvas-wrap"><div id="map" aria-label="Interactive map of livestock health reports"></div><div class="map-controls"><button data-map-control="zoom-in" title="Zoom in">+</button><button data-map-control="zoom-out" title="Zoom out">−</button><button data-map-control="locate" title="Current location">⌖</button><button data-map-control="fullscreen" title="Fullscreen">⛶</button><button data-map-control="type" title="Map type">◈</button></div></div></section>
+      <aside class="hotspot-panel"><div class="panel-title"><div><span class="eyebrow mini">Priority view</span><h2>Potential Health Hotspots</h2></div><span class="hotspot-count">18</span></div><div id="hotspot-list" class="hotspot-list"></div><div class="activity-list"><h3>Recent Activity</h3><p>New high-risk report in Village XYZ</p><p>Increased health reports detected</p><p>Veterinary team assigned</p><p>New vaccination campaign recorded</p></div></aside>
+    </div>
+  </main>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script src="scripts.js"></script>
+</body>
+</html>

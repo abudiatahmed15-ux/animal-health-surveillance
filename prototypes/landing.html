@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VetNexa — Detect Early. Act Faster. Protect Livestock.</title>
+  <meta name="description" content="VetNexa helps farmers and veterinarians detect livestock health risks earlier through smarter surveillance, reporting, and coordination." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="vn-navbar">
+    <div class="left">
+      <a href="../index.html" class="brand" aria-label="VetNexa home">
+        <img src="../design/logo.svg" alt="VetNexa logo" height="40">
+      </a>
+      <nav class="vn-nav-links" aria-label="Main navigation">
+        <a href="../index.html" class="nav-link active">Home</a>
+        <a href="#how-it-works" class="nav-link">How It Works</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#for-farmers" class="nav-link">For Farmers</a>
+        <a href="#for-veterinarians" class="nav-link">For Veterinarians</a>
+        <a href="map.html" class="nav-link">Map</a>
+        <a href="#about" class="nav-link">About</a>
+      </nav>
+    </div>
+    <div class="right">
+      <a class="btn btn-ghost" href="login.html">Login</a>
+      <a class="btn btn-primary" href="map.html">Open Map</a>
+    </div>
+    <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="section hero reveal">
+      <div class="hero-left">
+        <span class="eyebrow">Livestock health intelligence</span>
+        <h1 class="h-title">Smarter Livestock Healthcare.<br>Earlier Disease Detection.</h1>
+        <p class="h-sub">VetNexa brings farmers, veterinarians and livestock health surveillance together in one intelligent platform.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="report-form.html">Report Health Issue</a>
+          <a class="btn btn-ghost" href="#features">Explore Platform</a>
+        </div>
+
+        <div class="stats-strip">
+          <div class="stat-card fade-in">
+            <div class="stat-number" data-count="10000">0</div>
+            <div class="stat-label">Animals Monitored</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number" data-count="2500">0</div>
+            <div class="stat-label">Health Reports</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number" data-count="500">0</div>
+            <div class="stat-label">Farmers</div>
+          </div>
+          <div class="stat-card fade-in">
+            <div class="stat-number" data-count="98">0</div>
+            <div class="stat-label">Response Tracking</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual card fade-in" aria-label="VetNexa dashboard preview">
+        <div class="mini-stats">
+          <div class="mini-stat">
+            <span>Healthy</span>
+            <strong class="success">82%</strong>
+          </div>
+          <div class="mini-stat">
+            <span>Attention</span>
+            <strong class="warning">12%</strong>
+          </div>
+          <div class="mini-stat">
+            <span>Critical</span>
+            <strong class="danger">6%</strong>
+          </div>
+        </div>
+
+        <div class="dashboard-panel">
+          <div class="panel-row panel-row--tight">
+            <span>Risk Indicator</span>
+            <strong class="risk-pill danger">HIGH</strong>
+          </div>
+
+          <div class="animal-grid">
+            <div class="animal-card animal-card--green">
+              <div class="dot"></div>
+              <div>
+                <strong>Healthy</strong>
+                <small>245 animals</small>
+              </div>
+            </div>
+            <div class="animal-card animal-card--amber">
+              <div class="dot"></div>
+              <div>
+                <strong>Attention</strong>
+                <small>18 animals</small>
+              </div>
+            </div>
+            <div class="animal-card animal-card--red">
+              <div class="dot"></div>
+              <div>
+                <strong>Critical</strong>
+                <small>7 animals</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="map-preview">
+            <span class="marker marker--low"></span>
+            <span class="marker marker--mid"></span>
+            <span class="marker marker--high"></span>
+            <span class="pulse pulse--one"></span>
+            <span class="pulse pulse--two"></span>
+          </div>
+
+          <div class="alert-card">
+            <div class="alert-header">
+              <span>Alert</span>
+              <span class="alert-tag danger">High Risk</span>
+            </div>
+            <strong>Village XYZ</strong>
+            <p>18 reports · 42 animals affected</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section workflow reveal">
+      <div class="section-heading">
+        <span class="eyebrow">How it works</span>
+        <h2>How VetNexa Works</h2>
+        <p>From the first health observation to coordinated veterinary action.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-step reveal">
+          <div class="step-number">01</div>
+          <div class="step-card">
+            <span class="step-icon">📝</span>
+            <h3>Farmer Reports</h3>
+            <p>Farmer records animal, symptoms, duration, location and number affected.</p>
+          </div>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-number">02</div>
+          <div class="step-card">
+            <span class="step-icon">📊</span>
+            <h3>Risk Assessment</h3>
+            <p>VetNexa analyzes the submitted health information for patterns and severity.</p>
+          </div>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-number">03</div>
+          <div class="step-card">
+            <span class="step-icon">🚨</span>
+            <h3>Early Warning</h3>
+            <p>The system identifies elevated risk and potential clusters before they worsen.</p>
+          </div>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-number">04</div>
+          <div class="step-card">
+            <span class="step-icon">👩‍⚕️</span>
+            <h3>Veterinary Action</h3>
+            <p>Veterinarians receive prioritized cases and review the report quickly.</p>
+          </div>
+        </div>
+        <div class="timeline-step reveal">
+          <div class="step-number">05</div>
+          <div class="step-card">
+            <span class="step-icon">🛡️</span>
+            <h3>Prevention</h3>
+            <p>Alerts, follow-up and vaccination tracking support preventive action.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section features reveal">
+      <div class="section-heading">
+        <span class="eyebrow">Platform features</span>
+        <h2>Powerful Tools. One Connected Platform.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card fade-in">
+          <div class="feature-icon">🤖</div>
+          <h3>AI-Assisted Risk Triage</h3>
+          <p>Analyze reported health observations and prioritize cases for veterinary review.</p>
+          <span class="feature-badge">Smart triage</span>
+        </article>
+        <article class="feature-card fade-in">
+          <div class="feature-icon">🔔</div>
+          <h3>Early Warning Alerts</h3>
+          <p>Surface unusual increases in livestock health reports and potential risk clusters.</p>
+          <span class="feature-badge">Real-time alerts</span>
+        </article>
+        <article class="feature-card fade-in">
+          <div class="feature-icon">🗺️</div>
+          <h3>Health Hotspot Mapping</h3>
+          <p>Visualize potential geographic clusters through an interactive surveillance map.</p>
+          <span class="feature-badge">Geospatial insights</span>
+        </article>
+        <article class="feature-card fade-in">
+          <div class="feature-icon">🤝</div>
+          <h3>Veterinary Coordination</h3>
+          <p>Connect reported cases with veterinary review and follow-up workflows.</p>
+          <span class="feature-badge">Case workflow</span>
+        </article>
+        <article class="feature-card fade-in">
+          <div class="feature-icon">💉</div>
+          <h3>Vaccination Tracking</h3>
+          <p>Track vaccination records and upcoming preventive-care actions.</p>
+          <span class="feature-badge">Preventive care</span>
+        </article>
+        <article class="feature-card fade-in">
+          <div class="feature-icon">📡</div>
+          <h3>Offline-Friendly Reporting</h3>
+          <p>Support field reporting even when connectivity is limited.</p>
+          <span class="feature-badge">Field ready</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="for-farmers" class="section farmers reveal">
+      <div class="content-grid">
+        <div class="mockup-panel card fade-in">
+          <div class="dashboard-header">
+            <div>
+              <span class="eyebrow mini">Farmer overview</span>
+              <h3>Livestock Status</h3>
+            </div>
+            <span class="status-pill success">Healthy</span>
+          </div>
+
+          <div class="mini-cards">
+            <div class="mini-card">
+              <strong>245</strong>
+              <span>Animals</span>
+            </div>
+            <div class="mini-card">
+              <strong>15</strong>
+              <span>Reports</span>
+            </div>
+            <div class="mini-card">
+              <strong>08</strong>
+              <span>Alerts</span>
+            </div>
+          </div>
+
+          <div class="animal-row">
+            <div class="animal-tag"><span class="dot green"></span> Maya</div>
+            <div class="animal-tag"><span class="dot amber"></span> Bharat</div>
+            <div class="animal-tag"><span class="dot red"></span> Sundi</div>
+          </div>
+
+          <div class="farm-list">
+            <div class="farm-item"><span>Cow health report</span><strong>Reviewed</strong></div>
+            <div class="farm-item"><span>Vaccination due</span><strong>Today</strong></div>
+            <div class="farm-item"><span>Area risk update</span><strong>Watch</strong></div>
+          </div>
+        </div>
+
+        <div class="copy-panel fade-in">
+          <span class="eyebrow">For farmers</span>
+          <h2>Built for Farmers</h2>
+          <p>Simple health reporting without complicated workflows.</p>
+          <ul class="feature-list">
+            <li>Add and manage animals</li>
+            <li>Report symptoms quickly</li>
+            <li>View health reports</li>
+            <li>Understand risk levels</li>
+            <li>Track vaccinations</li>
+            <li>Receive important alerts</li>
+            <li>Connect with veterinary support</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="farmer-dashboard.html">Open Farmer Dashboard</a>
+            <a class="btn btn-ghost" href="report-form.html">Report a Health Issue</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="for-veterinarians" class="section veterinarians reveal">
+      <div class="content-grid reverse">
+        <div class="copy-panel fade-in">
+          <span class="eyebrow">For veterinarians</span>
+          <h2>Powerful Tools for Veterinarians</h2>
+          <p>Prioritize cases. Review health signals. Respond faster.</p>
+          <ul class="feature-list">
+            <li>Prioritized health cases</li>
+            <li>Detailed animal reports</li>
+            <li>Risk assessment</li>
+            <li>Case assignment</li>
+            <li>Veterinary notes</li>
+            <li>Case status tracking</li>
+            <li>Geographic surveillance</li>
+            <li>Follow-up management</li>
+          </ul>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="veterinarian-dashboard.html">Open Veterinarian Dashboard</a>
+          </div>
+        </div>
+
+        <div class="mockup-panel card fade-in">
+          <div class="dashboard-header">
+            <div>
+              <span class="eyebrow mini">Veterinary control</span>
+              <h3>Case Overview</h3>
+            </div>
+            <span class="status-pill warning">High Risk</span>
+          </div>
+
+          <div class="metrics-grid">
+            <div class="metric-box">
+              <strong>12</strong>
+              <span>Priority Cases</span>
+            </div>
+            <div class="metric-box">
+              <strong>08</strong>
+              <span>Assigned</span>
+            </div>
+            <div class="metric-box">
+              <strong>04</strong>
+              <span>Resolved</span>
+            </div>
+            <div class="metric-box">
+              <strong>06</strong>
+              <span>Hotspots</span>
+            </div>
+          </div>
+
+          <div class="timeline-preview">
+            <div class="timeline-item"><span class="dot red"></span> Village XYZ <small>15 min ago</small></div>
+            <div class="timeline-item"><span class="dot amber"></span> Farm P-04 <small>48 min ago</small></div>
+            <div class="timeline-item"><span class="dot green"></span> Cattle cluster <small>2 hrs ago</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section why reveal">
+      <div class="section-heading">
+        <span class="eyebrow">Why VetNexa</span>
+        <h2>Why VetNexa?</h2>
+      </div>
+
+      <div class="benefit-grid">
+        <div class="benefit-card fade-in">
+          <span class="benefit-label">EARLY</span>
+          <p>Identify concerning health signals sooner.</p>
+        </div>
+        <div class="benefit-card fade-in">
+          <span class="benefit-label">CONNECTED</span>
+          <p>Bring farmers, veterinarians and authorities into one workflow.</p>
+        </div>
+        <div class="benefit-card fade-in">
+          <span class="benefit-label">INTELLIGENT</span>
+          <p>Use AI-assisted triage and transparent risk scoring.</p>
+        </div>
+        <div class="benefit-card fade-in">
+          <span class="benefit-label">PREVENTIVE</span>
+          <p>Support vaccination, alerts and early veterinary action.</p>
+        </div>
+      </div>
+
+      <div class="flow-block fade-in">
+        <div class="flow-item">Field Observation</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Structured Report</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Risk Assessment</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Veterinary Review</div>
+        <div class="flow-arrow">↓</div>
+        <div class="flow-item">Preventive Action</div>
+      </div>
+    </section>
+
+    <section id="about" class="section about reveal">
+      <div class="about-layout">
+        <div>
+          <span class="eyebrow">About us</span>
+          <h2>Technology That Starts With Early Action</h2>
+        </div>
+        <div>
+          <p>VetNexa is designed to help transform fragmented livestock health observations into structured information that can support earlier risk assessment, veterinary coordination and surveillance.</p>
+          <div class="value-row">
+            <span>EARLY DETECTION</span>
+            <span>COORDINATION</span>
+            <span>PREVENTION</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-block reveal">
+      <div class="cta-panel">
+        <span class="eyebrow">Make a difference</span>
+        <h2>Ready to Make Livestock Health Smarter?</h2>
+        <p>Report. Assess. Respond. Prevent.</p>
+        <div class="cta-row">
+          <a class="btn btn-primary" href="report-form.html">Report Health Issue</a>
+          <a class="btn btn-ghost" href="#home">Explore VetNexa</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <img src="../design/logo.svg" alt="VetNexa logo" height="36">
+      <p>Detect Early. Act Faster. Protect Livestock.</p>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h4>Navigation</h4>
+        <a href="../index.html">Home</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#features">Features</a>
+        <a href="#for-farmers">For Farmers</a>
+        <a href="#for-veterinarians">For Veterinarians</a>
+        <a href="#about">About</a>
+      </div>
+      <div>
+        <h4>Product</h4>
+        <a href="farmer-dashboard.html">Farmer Dashboard</a>
+        <a href="veterinarian-dashboard.html">Veterinarian Dashboard</a>
+        <a href="report-form.html">Report Health Issue</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">© VetNexa</div>
+  </footer>
+
+  <button class="chatbot-btn" aria-label="Open chat assistant">VB</button>
+  <div class="chat-panel" aria-live="polite">
+    <div class="chat-header"><strong>VetNexa Assistant</strong></div>
+    <div class="chat-body">Hello! How can I help you today?</div>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>

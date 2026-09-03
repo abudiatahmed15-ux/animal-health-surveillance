@@ -1,0 +1,50 @@
+.
+.<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VetNexa — Login</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body style="display:flex;min-height:100vh;align-items:center;justify-content:center;padding:24px;background:var(--bg)">
+  <div style="max-width:980px;width:100%;display:grid;grid-template-columns:1fr 420px;gap:24px;align-items:center">
+    <div style="padding:36px">
+      <img src="../design/logo.svg" height="64" alt="VetNexa">
+      <h2 style="margin-top:18px">Better animal health starts with earlier action.</h2>
+      <p style="color:var(--muted)">Join farmers and veterinarians monitoring livestock health in real time.</p>
+    </div>
+    <div class="card" style="padding:20px">
+      <h3>Login</h3>
+      <form id="loginForm">
+        <label style="display:block;margin-top:8px">Email or Phone</label>
+        <input id="loginUser" style="width:100%;padding:12px;margin-top:6px;border-radius:8px;border:1px solid #E8EEF1" />
+        <label style="display:block;margin-top:8px">Password</label>
+        <input id="loginPass" type="password" style="width:100%;padding:12px;margin-top:6px;border-radius:8px;border:1px solid #E8EEF1" />
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-top:10px"><label><input type="checkbox"> Remember me</label><a href="#">Forgot password?</a></div>
+        <div style="margin-top:14px"><button id="loginBtn" class="btn btn-primary" type="button">Login</button></div>
+      </form>
+      <div style="margin-top:16px;color:var(--muted)">Don't have an account? <a href="#">Create Account</a></div>
+    </div>
+  </div>
+  <script src="scripts.js"></script>
+  <script>
+  document.addEventListener('DOMContentLoaded', ()=>{
+    const btn = document.getElementById('loginBtn');
+    const user = document.getElementById('loginUser');
+    const pass = document.getElementById('loginPass');
+    if(btn && user && pass){
+      btn.addEventListener('click', ()=>{
+        const u = user.value.trim();
+        const p = pass.value.trim();
+        if(!u || !p){ alert('Please enter your email/phone and password.'); return; }
+        // Demo: store basic user info and redirect to dashboard
+        try{ localStorage.setItem('vatenxaUser', JSON.stringify({id:u})); }catch(e){}
+        window.location.href = 'farmer-dashboard.html';
+      });
+    }
+  });
+  </script>
+</body>
+</html>
