@@ -1,0 +1,48 @@
+Year,Period,Disease,Animal_Type,Outbreaks,Cases,Deaths,Source,Evidence
+2015,2015-16,FMD,Cattle/Buffalo,0,0,0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet
+2015,2015-16,HS,Cattle/Buffalo,5,36,23,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet
+2015,2015-16,BQ,Cattle/Buffalo,2,11,10,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet
+2015,2015-16,PPR,Sheep/Goat,21,526,198,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet
+2015,2015-16,HS,Sheep/Goat,3,87,34,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet
+2016,2016-17,HS,Cattle/Buffalo,5,68,19,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet
+2016,2016-17,PPR,Sheep/Goat,11,349,34,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet
+2016,2016-17,HS,Sheep/Goat,1,82,32,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet
+2017,2017-18,BQ,Cattle/Buffalo,2,5,4,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet
+2017,2017-18,FMD,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet
+2017,2017-18,PPR,Sheep/Goat,9,1296,226,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet
+2017,2017-18,HS,Sheep/Goat,5,977,96,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet
+2017,2017-18,FMD,Sheep/Goat,0,0,0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,HS,Cattle/Buffalo,6,545,52,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,BQ,Cattle/Buffalo,2,15,8,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,PPR,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,FMD,Cattle/Buffalo,12,438,22,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,PPR,Sheep/Goat,16,708,365,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,HS,Sheep/Goat,1,990,125,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2018,2018-19,FMD,Sheep/Goat,1,14,12,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet
+2019,2019-20,HS,Cattle/Buffalo,3,7,7,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet
+2019,2019-20,BQ,Cattle/Buffalo,2,17,6,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet
+2019,2019-20,PPR,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet
+2019,2019-20,FMD,Cattle/Buffalo,2,15,10,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet
+2020,2020-21,LSD,Bovine,,268000,,"Maharashtra Economic Survey 2022-23, §7.62.1",Official Maharashtra Economic Survey; 2.68 lakh bovines infected across 25 districts
+2021,2021-22,HS,Cattle/Buffalo,12,698,195,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2021,2021-22,BQ,Cattle/Buffalo,1,4,2,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2021,2021-22,FMD,Cattle/Buffalo,35,1305,219,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2021,2021-22,LSD,Cattle/Buffalo,56,23833,0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2021,2021-22,PPR,Sheep/Goat,4,403,37,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2021,2021-22,HS,Sheep/Goat,2,6,2,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,HS,Cattle/Buffalo,1,1,1,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,BQ,Cattle/Buffalo,1,5,2,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,PPR,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,FMD,Cattle/Buffalo,2,12,0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,LSD,Cattle/Buffalo,4189,470824,38198,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,PPR,Sheep/Goat,6,5554,558,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,HS,Sheep/Goat,1,2,2,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2022,2022-23,FMD,Sheep/Goat,0,0,0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,HS,Cattle/Buffalo,4,67,28,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,BQ,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,PPR,Cattle/Buffalo,0,0,0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,FMD,Cattle/Buffalo,11,908,57,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,LSD,Cattle/Buffalo,3173,150402,10811,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,PPR,Sheep/Goat,2,11,1,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,HS,Sheep/Goat,0,0,0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet
+2023,2023-24,FMD,Sheep/Goat,0,0,0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet

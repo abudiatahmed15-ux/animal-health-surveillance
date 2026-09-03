@@ -1,0 +1,48 @@
+Year,Period,Disease,Animal_Type,Outbreaks,Cases,Deaths,Source,Evidence,Mortality_Rate,Disease_Name
+2015,2015-16,FMD,Cattle/Buffalo,0.0,0,0.0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet,,Foot-and-Mouth Disease
+2015,2015-16,HS,Cattle/Buffalo,5.0,36,23.0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet,0.6388888888888888,Haemorrhagic Septicaemia
+2015,2015-16,BQ,Cattle/Buffalo,2.0,11,10.0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet,0.9090909090909091,Black Quarter
+2015,2015-16,PPR,Sheep/Goat,21.0,526,198.0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet,0.376425855513308,Peste des Petits Ruminants
+2015,2015-16,HS,Sheep/Goat,3.0,87,34.0,Maharashtra Statistical Booklet 2015-16,Official Maharashtra statistical booklet,0.39080459770114945,Haemorrhagic Septicaemia
+2016,2016-17,HS,Cattle/Buffalo,5.0,68,19.0,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet,0.27941176470588236,Haemorrhagic Septicaemia
+2016,2016-17,PPR,Sheep/Goat,11.0,349,34.0,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet,0.09742120343839542,Peste des Petits Ruminants
+2016,2016-17,HS,Sheep/Goat,1.0,82,32.0,"Maharashtra Statistical Booklet 2016-17, Table 31",Official Maharashtra statistical booklet,0.3902439024390244,Haemorrhagic Septicaemia
+2017,2017-18,BQ,Cattle/Buffalo,2.0,5,4.0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet,0.8,Black Quarter
+2017,2017-18,FMD,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet,,Foot-and-Mouth Disease
+2017,2017-18,PPR,Sheep/Goat,9.0,1296,226.0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet,0.1743827160493827,Peste des Petits Ruminants
+2017,2017-18,HS,Sheep/Goat,5.0,977,96.0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet,0.09825997952917093,Haemorrhagic Septicaemia
+2017,2017-18,FMD,Sheep/Goat,0.0,0,0.0,"Maharashtra Statistical Booklet 2017-18, Table 24",Official Maharashtra statistical booklet,,Foot-and-Mouth Disease
+2018,2018-19,HS,Cattle/Buffalo,6.0,545,52.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.09541284403669725,Haemorrhagic Septicaemia
+2018,2018-19,BQ,Cattle/Buffalo,2.0,15,8.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.5333333333333333,Black Quarter
+2018,2018-19,PPR,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,,Peste des Petits Ruminants
+2018,2018-19,FMD,Cattle/Buffalo,12.0,438,22.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.0502283105022831,Foot-and-Mouth Disease
+2018,2018-19,PPR,Sheep/Goat,16.0,708,365.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.5155367231638418,Peste des Petits Ruminants
+2018,2018-19,HS,Sheep/Goat,1.0,990,125.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.12626262626262627,Haemorrhagic Septicaemia
+2018,2018-19,FMD,Sheep/Goat,1.0,14,12.0,"Maharashtra Statistical Booklet 2018-19, Table 24",Official Maharashtra statistical booklet,0.8571428571428571,Foot-and-Mouth Disease
+2019,2019-20,HS,Cattle/Buffalo,3.0,7,7.0,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet,1.0,Haemorrhagic Septicaemia
+2019,2019-20,BQ,Cattle/Buffalo,2.0,17,6.0,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet,0.35294117647058826,Black Quarter
+2019,2019-20,PPR,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet,,Peste des Petits Ruminants
+2019,2019-20,FMD,Cattle/Buffalo,2.0,15,10.0,"Maharashtra Statistical Booklet 2019-20, Table 24",Official Maharashtra statistical booklet,0.6666666666666666,Foot-and-Mouth Disease
+2020,2020-21,LSD,Bovine,,268000,,"Maharashtra Economic Survey 2022-23, §7.62.1",Official Maharashtra Economic Survey; 2.68 lakh bovines infected across 25 districts,,Lumpy Skin Disease
+2021,2021-22,HS,Cattle/Buffalo,12.0,698,195.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.2793696275071633,Haemorrhagic Septicaemia
+2021,2021-22,BQ,Cattle/Buffalo,1.0,4,2.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.5,Black Quarter
+2021,2021-22,FMD,Cattle/Buffalo,35.0,1305,219.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.167816091954023,Foot-and-Mouth Disease
+2021,2021-22,LSD,Cattle/Buffalo,56.0,23833,0.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.0,Lumpy Skin Disease
+2021,2021-22,PPR,Sheep/Goat,4.0,403,37.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.09181141439205956,Peste des Petits Ruminants
+2021,2021-22,HS,Sheep/Goat,2.0,6,2.0,"Maharashtra Statistical Booklet 2021-22, Table 28",Official Maharashtra statistical booklet,0.3333333333333333,Haemorrhagic Septicaemia
+2022,2022-23,HS,Cattle/Buffalo,1.0,1,1.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,1.0,Haemorrhagic Septicaemia
+2022,2022-23,BQ,Cattle/Buffalo,1.0,5,2.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,0.4,Black Quarter
+2022,2022-23,PPR,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,,Peste des Petits Ruminants
+2022,2022-23,FMD,Cattle/Buffalo,2.0,12,0.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,0.0,Foot-and-Mouth Disease
+2022,2022-23,LSD,Cattle/Buffalo,4189.0,470824,38198.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,0.08113010381798719,Lumpy Skin Disease
+2022,2022-23,PPR,Sheep/Goat,6.0,5554,558.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,0.10046813107670148,Peste des Petits Ruminants
+2022,2022-23,HS,Sheep/Goat,1.0,2,2.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,1.0,Haemorrhagic Septicaemia
+2022,2022-23,FMD,Sheep/Goat,0.0,0,0.0,"Maharashtra Statistical Booklet 2022-23, Table 28",Official Maharashtra statistical booklet,,Foot-and-Mouth Disease
+2023,2023-24,HS,Cattle/Buffalo,4.0,67,28.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,0.417910447761194,Haemorrhagic Septicaemia
+2023,2023-24,BQ,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,,Black Quarter
+2023,2023-24,PPR,Cattle/Buffalo,0.0,0,0.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,,Peste des Petits Ruminants
+2023,2023-24,FMD,Cattle/Buffalo,11.0,908,57.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,0.06277533039647577,Foot-and-Mouth Disease
+2023,2023-24,LSD,Cattle/Buffalo,3173.0,150402,10811.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,0.07188069307588994,Lumpy Skin Disease
+2023,2023-24,PPR,Sheep/Goat,2.0,11,1.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,0.09090909090909091,Peste des Petits Ruminants
+2023,2023-24,HS,Sheep/Goat,0.0,0,0.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,,Haemorrhagic Septicaemia
+2023,2023-24,FMD,Sheep/Goat,0.0,0,0.0,"Maharashtra Statistical Booklet 2023-24, Table 28",Official Maharashtra statistical booklet,,Foot-and-Mouth Disease

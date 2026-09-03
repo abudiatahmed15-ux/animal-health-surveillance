@@ -1,0 +1,75 @@
+Animal_Type,Breed,Age,Gender,Weight,Symptom_1,Symptom_2,Symptom_3,Symptom_4,Duration,Appetite_Loss,Vomiting,Diarrhea,Coughing,Labored_Breathing,Lameness,Skin_Lesions,Nasal_Discharge,Eye_Discharge,Body_Temperature,Heart_Rate,Disease_Prediction
+Horse,Thoroughbred,6,Female,500.0,Coughing,Labored Breathing,Nasal Discharge,Fever,10 days,1,0,0,1,1,0,0,1,0,39.8,85,Equine Influenza
+Cow,Hereford,5,Male,650.0,Fever,Lethargy,Decreased Milk Yield,Appetite Loss,5 days,1,0,0,0,0,0,0,0,0,39.7,80,Bovine Respiratory Disease
+Horse,Clydesdale,10,Male,700.0,Coughing,Nasal Discharge,Labored Breathing,Fever,2 weeks,1,0,0,1,1,0,0,1,0,40.2,85,Equine Influenza
+Horse,Arabian,7,Male,450.0,Lethargy,Appetite Loss,Fever,Labored Breathing,5 days,1,0,0,1,1,0,0,0,0,39.7,90,Equine Influenza
+Cow,Angus,5,Female,700.0,Fever,Decreased Milk Yield,Lethargy,Nasal Discharge,7 days,1,0,0,1,1,0,0,1,0,39.8,80,Bovine Respiratory Disease
+Cow,Angus,6,Male,600.0,Coughing,Nasal Discharge,Labored Breathing,Fever,7 days,0,0,0,1,1,0,0,0,0,39.9,82,Bovine Respiratory Disease
+Horse,Thoroughbred,14,Male,520.0,Coughing,Labored Breathing,Fever,Weight Loss,12 days,0,1,1,0,1,0,0,1,0,39.7,72,Equine Influenza
+Horse,Arabian,13,Male,490.0,Fever,Nasal Discharge,Labored Breathing,Lethargy,8 days,0,0,0,1,1,0,0,1,0,39.6,78,Equine Influenza
+Cow,Angus,8,Male,580.0,Coughing,Labored Breathing,Lethargy,Nasal Discharge,5 days,1,0,0,1,0,1,0,0,1,40.0,83,Bovine Respiratory Disease
+Sheep,Suffolk,3,Female,80.0,Weight Loss,Lethargy,Loss of Appetite,Reduced Wool Growth,8 days,1,0,1,0,0,1,0,1,0,39.8,77,Scrapie
+Goat,Alpine,4,Male,72.0,Fever,Lethargy,Weight Loss,Loss of Appetite,7 days,0,1,0,0,1,1,0,0,1,39.7,83,Caprine Arthritis Encephalitis
+Pig,Duroc,3,Female,115.0,Sneezing,Coughing,Nasal Discharge,Labored Breathing,5 days,1,0,1,0,0,1,1,0,0,40.0,80,Swine Influenza
+Cow,Jersey,6,Male,570.0,Coughing,Nasal Discharge,Labored Breathing,Fever,5 days,1,0,1,0,1,0,0,1,1,39.4,81,Bovine Tuberculosis
+Cow,Brown Swiss,9,Male,600.0,Labored Breathing,Nasal Discharge,Coughing,Fever,6 days,1,0,1,1,0,1,0,0,1,39.6,80,Bovine Respiratory Disease
+Sheep,Romney,6,Female,78.0,Weight Loss,Lethargy,Loss of Appetite,Swollen Joints,9 days,1,1,0,1,0,0,1,1,0,39.7,76,Scrapie
+Cow,Holstein,7,Female,650.0,Coughing,Nasal Discharge,Appetite Loss,Fever,5 days,1,0,0,1,1,0,0,1,0,39.4,79,Bovine Tuberculosis
+Horse,Thoroughbred,7,Female,480.0,Lameness,Loss of Appetite,Swollen Legs,Fever,6 days,0,1,1,0,1,1,0,1,0,39.6,75,Equine Influenza
+Cow,Angus,6,Male,550.0,Coughing,Nasal Discharge,Fever,Weight Loss,7 days,1,0,1,1,1,0,1,0,0,39.4,82,Bovine Respiratory Disease
+Goat,Alpine,5,Male,72.0,Vomiting,Diarrhea,Fever,Loss of Appetite,6 days,1,1,0,1,0,0,1,1,0,39.0,81,Caprine Arthritis Encephalitis
+Pig,Duroc,3,Female,100.0,Coughing,Nasal Discharge,Loss of Appetite,Lethargy,4 days,1,0,1,0,1,1,0,0,1,39.5,88,Swine Influenza
+Cow,Charolais,5,Female,620.0,Lethargy,Coughing,Nasal Discharge,Fever,4 days,1,1,1,0,1,0,0,1,1,39.6,81,Bovine Tuberculosis
+Sheep,Finnsheep,4,Male,70.0,Coughing,Lethargy,Loss of Appetite,Swollen Joints,5 days,1,0,1,1,0,1,0,1,1,39.0,75,Scrapie
+Cow,Guernsey,7,Male,590.0,Coughing,Lethargy,Loss of Appetite,Swollen Legs,6 days,1,0,0,1,1,1,1,0,1,39.1,78,Bovine Tuberculosis
+Goat,Nigerian Dwarf,2,Female,55.0,Vomiting,Fever,Loss of Appetite,Lethargy,4 days,1,1,0,1,0,0,1,0,1,39.2,82,Caprine Arthritis Encephalitis
+Pig,Large White,6,Female,115.0,Coughing,Nasal Discharge,Loss of Appetite,Lethargy,7 days,1,0,1,1,1,0,1,0,0,39.7,83,Swine Influenza
+Horse,Welsh Pony,5,Female,400.0,Lameness,Loss of Appetite,Swollen Legs,Fever,4 days,0,1,1,0,1,0,1,1,0,39.4,78,Equine Influenza
+Cow,Aberdeen Angus,6,Female,620.0,Coughing,Fever,Loss of Appetite,Lethargy,5 days,1,0,1,0,1,1,1,1,0,39.2,80,Bovine Respiratory Disease
+Cow,Ayrshire,4,Male,630.0,Coughing,Lethargy,Loss of Appetite,Swollen Legs,6 days,1,0,1,1,0,1,1,1,0,39.1,79,Bovine Tuberculosis
+Cow,Jersey,5,Male,560.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,0,1,1,1,1,1,0,1,39.1,79,Bovine Tuberculosis
+Goat,Boer,6,Male,70.0,Vomiting,Diarrhea,Loss of Appetite,Fever,5 days,1,1,0,1,0,1,1,0,0,39.4,80,Caprine Arthritis Encephalitis
+Horse,Mustang,8,Male,550.0,Lameness,Loss of Appetite,Swollen Legs,Fever,7 days,0,1,1,1,1,0,0,1,0,39.1,87,Equine Influenza
+Sheep,Karakul,5,Male,80.0,Swollen Joints,Coughing,Loss of Appetite,Lethargy,4 days,1,0,1,1,1,1,0,1,1,39.4,75,Scrapie
+Horse,Standardbred,6,Male,650.0,Lameness,Swollen Legs,Loss of Appetite,Fever,6 days,1,0,1,0,1,1,1,0,1,39.4,80,Equine Influenza
+Cow,Charolais,3,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,0,1,1,0,1,1,39.2,77,Bovine Tuberculosis
+Cow,Holstein,4,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,0,1,0,1,0,1,39.3,77,Bovine Respiratory Disease
+Pig,Berkshire,5,Female,110.0,Coughing,Loss of Appetite,Nasal Discharge,Fever,5 days,1,0,1,1,1,0,1,0,1,39.2,85,Swine Influenza
+Cow,Red Poll,4,Male,680.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,0,0,1,0,1,1,1,39.4,77,Bovine Tuberculosis
+Goat,Saanen,5,Female,85.0,Vomiting,Diarrhea,Lethargy,Fever,6 days,1,1,0,1,0,1,1,1,0,39.6,85,Caprine Arthritis Encephalitis
+Cow,Ayrshire,5,Male,720.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,1,1,0,0,1,1,1,0,1,39.3,82,Bovine Tuberculosis
+Cow,Belted Galloway,4,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,1,1,1,0,1,1,1,0,1,39.4,75,Bovine Tuberculosis
+Horse,Thoroughbred,6,Male,550.0,Lameness,Loss of Appetite,Swollen Legs,Fever,5 days,1,0,0,1,1,1,1,1,1,39.5,78,Equine Influenza
+Sheep,Rambouillet,5,Female,90.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,1,1,1,0,0,1,39.3,78,Scrapie
+Horse,Pinto,6,Male,600.0,Lameness,Loss of Appetite,Swollen Legs,Fever,5 days,1,1,0,1,0,1,1,1,1,39.5,88,Equine Influenza
+Goat,Saanen,8,Female,110.0,Vomiting,Diarrhea,Lethargy,Fever,6 days,1,1,1,0,1,1,0,0,1,39.8,85,Caprine Arthritis Encephalitis
+Pig,Landrace,6,Female,130.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,1,1,0,1,1,0,39.2,110,Swine Influenza
+Cow,Guernsey,5,Female,600.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,0,0,1,1,1,0,1,1,39.6,85,Bovine Tuberculosis
+Horse,Thoroughbred,5,Female,550.0,Lameness,Swollen Legs,Loss of Appetite,Fever,6 days,1,1,1,1,0,0,1,1,1,39.5,100,Equine Influenza
+Cow,Charolais,8,Male,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,0,1,1,1,0,1,39.2,75,Bovine Respiratory Disease
+Goat,Kiko,4,Female,90.0,Vomiting,Diarrhea,Lethargy,Fever,5 days,1,0,1,1,0,1,1,0,1,39.6,85,Caprine Arthritis Encephalitis
+Pig,Large White,3,Female,120.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,1,1,0,1,1,0,1,1,0,39.1,95,Swine Influenza
+Cow,Simmental,7,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,0,1,0,1,0,1,1,1,39.3,75,Bovine Tuberculosis
+Sheep,Texel,5,Male,110.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,1,1,1,1,0,1,0,39.4,70,Scrapie
+Cow,Angus,5,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,1,1,1,1,1,0,1,39.3,75,Bovine Tuberculosis
+Pig,Landrace,6,Male,140.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,0,0,1,1,1,1,1,39.5,90,Swine Influenza
+Cow,Jersey,3,Female,600.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,0,1,1,1,0,0,1,1,39.4,95,Bovine Respiratory Disease
+Sheep,Dorset,6,Male,120.0,Coughing,Loss of Appetite,Lethargy,Fever,7 days,1,1,1,0,1,1,1,1,0,39.5,85,Scrapie
+Goat,Nubian,2,Female,80.0,Vomiting,Diarrhea,Lethargy,Fever,4 days,1,1,1,1,0,1,0,0,1,39.7,90,Caprine Arthritis Encephalitis
+Pig,Tamworth,3,Male,160.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,1,1,1,0,1,0,1,39.5,105,Swine Influenza
+Cow,Angus,4,Female,650.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,0,1,1,0,1,1,1,39.5,90,Bovine Tuberculosis
+Goat,Alpine,3,Female,75.0,Vomiting,Diarrhea,Lethargy,Fever,4 days,1,1,1,1,1,1,1,1,1,39.7,95,Caprine Arthritis Encephalitis
+Cow,Charolais,8,Female,750.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,0,1,1,1,1,0,1,39.3,80,Bovine Respiratory Disease
+Cow,Guernsey,3,Male,580.0,Coughing,Loss of Appetite,Lethargy,Fever,4 days,1,1,1,1,0,1,1,0,1,39.4,85,Bovine Respiratory Disease
+Sheep,Dorset,4,Male,125.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,0,1,1,0,0,1,1,39.3,80,Scrapie
+Goat,Saanen,3,Female,75.0,Vomiting,Diarrhea,Lethargy,Fever,5 days,1,1,1,0,1,0,1,1,1,39.5,90,Caprine Arthritis Encephalitis
+Cow,Ayrshire,3,Female,700.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,1,1,1,0,0,1,1,39.4,90,Bovine Respiratory Disease
+Goat,Kiko,4,Female,70.0,Vomiting,Diarrhea,Lethargy,Fever,5 days,1,1,1,1,0,1,1,1,0,39.5,90,Caprine Arthritis Encephalitis
+Pig,Chester White,3,Male,150.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,0,1,1,0,1,1,1,1,39.7,105,Swine Influenza
+Cow,Simmental,4,Female,700.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,1,1,1,0,0,1,1,39.4,100,Bovine Respiratory Disease
+Goat,Toggenburg,2,Female,70.0,Vomiting,Diarrhea,Lethargy,Fever,4 days,1,1,1,1,0,1,1,1,0,39.4,90,Caprine Arthritis Encephalitis
+Pig,Tamworth,3,Male,130.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,1,1,0,1,0,0,1,39.6,105,Swine Influenza
+Cow,Dexter,2,Male,500.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,1,1,0,1,0,0,1,39.4,95,Bovine Tuberculosis
+Sheep,Cheviot,4,Female,120.0,Coughing,Loss of Appetite,Lethargy,Fever,6 days,1,1,1,1,0,1,1,0,1,39.4,85,Scrapie
+Sheep,Dorset,5,Male,150.0,Coughing,Loss of Appetite,Lethargy,Fever,5 days,1,1,1,1,0,1,0,0,1,39.5,90,Scrapie
+Horse,Thoroughbred,6,Female,500.0,Coughing,Labored Breathing,Nasal Discharge,Fever,10 days,1,0,0,1,1,0,0,1,0,39.8,85,Equine Influenza
